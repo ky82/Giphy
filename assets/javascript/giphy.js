@@ -1,4 +1,4 @@
-$(function(){
+$(function(){   
     populateButtons(searchArray,'searchButton','#buttonsArea')
     console.log("Page loaded");
 })
@@ -16,7 +16,7 @@ function populateButtons(searchArray,classToAdd,areaToAddTo){
 $(document).on('click','.searchButton', function(){
     $("#searches").empty();
    var type = $(this).data('type');
-   var queryURL='https://api.giphy.com/v1/gifs/search?q='+type+'&api_key=DwtPCpy2hbN4JZp2e2kHpj6BPav1zNHc';
+   var queryURL='https://api.giphy.com/v1/gifs/search?q='+type+'&api_key=DwtPCpy2hbN4JZp2e2kHpj6BPav1zNHc&limit=10';
    $.ajax({
        url:queryURL,
        method:'GET'
