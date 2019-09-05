@@ -2,15 +2,18 @@
 ###############################################
 # Live Link 
 https://ky82.github.io/Giphy/
+
 ###############################################
 # Requirements:
 In this assignment, you'll use the GIPHY API to make a dynamic web page that populates with gifs of your choice. To finish this task, you must call the GIPHY API and use JavaScript and jQuery to change the HTML of your site.
+
 ###############################################
 # Technologies used
 1. HTML
 2. CSS
 3. JavaScript Json.
 4. Giphy API
+
 ###############################################
 # Code Explanation:
 1. The logic for the game is in the giphy.js file. 
